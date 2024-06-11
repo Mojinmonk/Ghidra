@@ -34,8 +34,7 @@ class Decompiler:
     '''decompile binary into pseudo c using Ghidra API.
     Usage:
         >>> decompiler = Decompiler()
-        >>> pseudo_c = decompiler.decompile()
-        >>> # then write to file
+        >>> decompiler.decompile(reportName)
     This class and methods were authored by galoget
     https://github.com/galoget/ghidra-headless-scripts/tree/main
     '''
